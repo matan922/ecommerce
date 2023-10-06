@@ -1,0 +1,48 @@
+
+
+.card-cls {
+  width: 100%;
+  max-width: 300px; 
+  height: 500px; 
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+  margin-bottom:1px;
+}
+
+.card-cls:hover {
+  transform: translateY(-5px);
+}
+
+
+
+.card-content-cls {
+  flex-grow: 1;
+  padding: 16px;
+}
+
+.card-title-cls {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 800px;
+}
+
+.card-description-cls {
+  font-size: 0.875rem;
+  margin-bottom: 12px;
+}
+
+.card-price-cls {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: auto;
+}
+
+.card-button-cls {
+  margin-top: 8px;
+  align-self: center;
+}

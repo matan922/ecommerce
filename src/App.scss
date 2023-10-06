@@ -1,0 +1,42 @@
+.App{
+    
+ 
+    
+    .app-header {
+        background-color: #333; 
+        padding: 10px 0; 
+      
+        nav {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      
+          a {
+            color: white; 
+            text-decoration: none;
+            padding: 10px 20px; 
+            transition: background-color 0.3s; 
+            border-radius: 5px; 
+      
+            &:hover {
+              background-color: #555; 
+            }
+      
+
+          }
+        }
+      
+        @media (max-width: 768px) {
+        
+          nav {
+            flex-direction: column; 
+      
+            a {
+              width: 100%; 
+              text-align: center; 
+            }
+          }
+        }
+      }
+      
+    }
